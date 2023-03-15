@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <link rel="stylesheet" href="/static/style.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src='/static/script.js'></script>
+    </head>
+    <body>
+        <div id="main">
+            <div class="column">
+            <h2>seleziona la lingua da cui tradurre</h2>
+        <select id="start_lang">
+            <option>seleziona lingua ...</option>
+            <option>English</option>
+            <option>Italiano</option>
+            <option>Français</option>
+            <option>Espagnol</option>
+            <option>Deutsch</option>
+            <option>arabic</option>
+        </select>
+        
+        <div id="inizio" class="testo"> 
+            <p id="testo">testo originale</p>
+        </div>
+    
+    </div>
+        
+        <div class="column">
+        <h2>seleziona la lingua in cui tradurre</h2>
+        <select id="end_lang">
+            <option>seleziona lingua ...</option>
+            <option>English</option>
+            <option>Italiano</option>
+            <option>Français</option>
+            <option>Espagnol</option>
+            <option>Deutsch</option>
+            <option>arabic</option>
+        </select>
+
+        <div id="fine" class="testo"> 
+            <p id="translated">Testo tradotto</p>
+        </div>
+
+        </div>
+        <br>
+        
+        <button id="inizia">Inizia a parlare</button>
+    
+        </div>
+    </body>
+</html>
